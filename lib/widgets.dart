@@ -76,3 +76,27 @@ class RowNColumn extends StatelessWidget {
     );
   }
 }
+
+class ProductLst extends StatelessWidget {
+  const ProductLst({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        ListTile(
+          title: const Text('Bike',
+              style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              textAlign: TextAlign.center),
+          tileColor: Colors.orange,
+          onTap: () {},
+          leading: const Icon(Icons.electric_bike_sharp),
+          trailing: const Icon(Icons.shop),
+        )
+      ],
+    );
+  }
+}

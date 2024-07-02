@@ -18,7 +18,8 @@ class MainApp extends StatelessWidget {
             ListWithThings(),
             IconWithText(),
             RowNColumn(),
-            OnlinePicture()
+            OnlinePicture(),
+            ProductLst()
           ],
         ),
       ),
