@@ -13,8 +13,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(),
-        body: const Column(
-          children: [
+        body: ListView(
+          children: const [
             ListWithThings(),
             IconWithText(),
             RowNColumn(),
